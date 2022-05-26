@@ -1,5 +1,5 @@
 # Arma-Reforger-Server
-1). create a folder called steamCMD and extract the steamCMD.exe then run it.
+1). create a folder called steamCMD and extract the steamCMD.exe then run it. https://developer.valvesoftware.com/wiki/SteamCMD
 2). create a ArmA Reforger folder and place the two .bat files in it
 3). edit both files to have the correct directories
 4). run the update .bat this will download the server files (make sure that windows firewall notification settings are set to notify you) 
