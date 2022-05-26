@@ -2,8 +2,8 @@
     :: DEFINE the following variables where applicable to your install
     SET SteamLogin=anonymous
     SET ReforgerBranch=1874900
-    SET ReforgerServerPath="C:\Servers\ArmAReforger"
-    SET SteamCMDPath="C:\Servers\SteamCMD"
+    SET ReforgerServerPath="C:\Servers\ArmAReforger(change this)"
+    SET SteamCMDPath="C:\Servers\SteamCMD(change this)"
     :: _______________________________________________________________
  
 echo.
