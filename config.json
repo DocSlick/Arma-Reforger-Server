@@ -1,0 +1,37 @@
+{
+    "dedicatedServerId": "", 
+    "region": "US",
+    "gameHostBindAddress": "",
+    "gameHostBindPort": 2001,
+    "gameHostRegisterBindAddress": "change-this-to-your-public-ip",
+    "gameHostRegisterPort": 2001,
+    "adminPassword": "changethis",
+    "game": {
+        "name": "changethis",
+        "password": "",
+        "scenarioId": "{7C3DEA04D4423FBA}Missions/ConflictEnhanced.conf",
+        "playerCountLimit": 32,
+        "autoJoinable": false,
+        "visible": true,
+        "gameProperties": {
+            "serverMaxViewDistance": 1600,
+            "serverMinGrassDistance": 50,
+            "networkViewDistance": 500,
+            "disableThirdPerson": false,
+            "fastValidation": true,
+            "battlEye": true,
+            "missionHeader": {
+                "m_iPlayerCount": 40,
+                "m_eEditableGameFlags": 6,
+                "m_eDefaultGameFlags": 6,
+                "other": "values"
+            }
+        },
+        "mods": [
+{       "modId": "596AB4A8F04E2014",
+        "name": "Conflict Enhanced",
+        "version": "0.1.4"
+      }
+        ]
+    }
+}
