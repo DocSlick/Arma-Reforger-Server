@@ -5,9 +5,10 @@ COLOR 0A
     :: Make sure your ConfigFolder has your account name and not Administrator if you are not using the built-in Windows admin account!
     SET SteamLogin=anonymous
     SET ReforgerBranch=1874900
-    SET ReforgerServerPath="C:\Servers\ArmaReforgerServer(Change this)"
-    SET SteamCMDPath="C:\Servers\SteamCMD(Change this)"
-    SET ConfigFolder="C:\Users\Administrator\Documents\My Games\User\profile(Change This)"
+    SET ReforgerServerPath="C:\Servers\ArmaReforgerServer1"
+    SET SteamCMDPath="C:\Servers\SteamCMD"
+    SET ProfileFolder="C:\Servers\ArmaReforgerServer1\profile"
+    SET ConfigFolder="C:\Servers\ArmaReforgerServer1\profile"
     :: _______________________________________________________________
 
 
@@ -56,5 +57,5 @@ timeout 1 >nul
 cls
 echo ArmA Reforger Server...
 cd "%ReforgerServerPath%"
-start ArmaReforgerServer.exe -config %ConfigFolder%\config.json -profile User -maxFPS 60 -logStats 10000
+start ArmaReforgerServer.exe -profile %ProfileFolder% -config %ConfigFolder%\config.json
 goto checkServer
